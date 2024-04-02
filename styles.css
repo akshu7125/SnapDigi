@@ -1,0 +1,105 @@
+
+li,a,button{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color:#edf0f1;
+  text-decoration: none;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #24252A;
+  align-items: center;
+  padding: 30px 10%;
+
+}
+.logo{
+  cursor: pointer;
+}
+.navlinks{
+  list-style: none;
+}
+
+.navlinks li{
+  display: inline-block;
+  padding:0px 20px;
+}
+.navlinks li a {
+  transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+  color:#0088a9;
+}
+button{
+  padding:9px 25px;
+  border: none;
+  cursor:pointer;
+  transition:all 0.3s ease 0s;
+  border-radius:50px;
+  background-color: #0088a9;
+
+}
+button:hover{
+  background-color: #0088a9cc;
+}
+.slider img{
+ height: 500px;
+ width: 100%
+  
+}
+.logo{
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  
+}
+.logo span{
+  color:  rgb(32, 188, 227);
+}
+.contact-section {
+    background-color: #24252A;; /* Off-white */
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .contact-form {
+    margin-top: 2rem;
+  }
+  
+  .contact-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background-color: #2196F3; /* Material Blue */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0D47A1; /* Darker shade of Material Blue */
+  }

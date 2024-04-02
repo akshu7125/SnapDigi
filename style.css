@@ -1,0 +1,57 @@
+/* Your CSS styles from the previous example remain here */
+
+/* Additional styles for enhanced design */
+header {
+  background-color: #2196F3; /* Material Blue */
+  color: white;
+}
+
+nav ul {
+  background-color: #1976D2; /* Darker shade of Material Blue */
+}
+
+nav a {
+  color: white;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #0D47A1; /* Even darker shade of Material Blue */
+}
+
+.about-section {
+  background-color: #F5F5F5; /* Light Gray */
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.founders-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.founder {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 45%;
+}
+
+.founder h3 {
+  margin-top: 1rem;
+}
+
+.founder p {
+  margin-top: 0.5rem;
+  color: #777;
+}
+
+footer {
+  background-color: #212121; /* Dark Gray */
+}
+
+footer p {
+  color: #888;
+}

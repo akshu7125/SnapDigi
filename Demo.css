@@ -1,0 +1,244 @@
+.Navbar{
+    background-color: rgb(238, 230, 230);
+    top: 0;
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    overflow: hidden;
+    height: 80px;
+    
+}
+/* NAVBAR PARAGRAPH STYLE*/
+.Navbar p{
+    font-size: 50px;
+    text-decoration-color: black;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* NAVBAR For Links */
+.Navbar a{
+    margin-top: 19px;
+    font-size: 50px;
+    text-decoration-color: black;
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* NAVBAR LINKS ON HOVERING */
+.Navbar a:hover{
+    background-color: rgb(75, 76, 76);
+}
+
+/* NAVBAR FOR SEARCH POSITION */
+.Search{
+    overflow: hidden;
+    height: 80px;
+    position: relative;
+    
+}
+
+/* NAVBAR OF SEARCH HEADING */
+.Search h1{
+    font-size: 50px;
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    /* position: fixed; */
+   
+
+}
+/* NAVBAR OF SEARCH Links */
+.Search a{
+    margin-top: 19px;
+    font-size: 50px;
+    text-decoration-color: black;
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.Search a:hover{
+    background-color: rgb(75, 76, 76);
+}
+li,a,button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#edf0f1;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+.logo{
+    cursor: pointer;
+}
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding:0px 20px;
+}
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+    color:#0088a9;
+}
+button{
+    padding:9px 25px;
+    border: none;
+    cursor:pointer;
+    transition:all 0.3s ease 0s;
+    border-radius:50px;
+    background-color: #0088a9;
+
+}
+button:hover{
+    background-color: #0088a9cc;
+}
+.slider img{
+   height: 500px;
+   width: 100%
+    
+}
+.logo{
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    
+}
+.logo span{
+    color:  rgb(32, 188, 227);
+}
+
+/* categorybar links */
+.categorybar{
+    background-color: #fbe9e9;
+    position: relative;
+    width: 100%;
+    height: 40px; 
+    display: flex;
+    justify-content: center; /* Align items horizontally at the center */
+    align-items: center;  
+}
+.categorybar a{
+    
+    padding: 25px;
+    /* padding-top:10px; */
+    font-size: 20px;
+    text-decoration-color: black;
+    color: #000000;
+}
+
+ .PAGE > h1{
+    font-size: 70px;
+    text-align: center;
+    color: rgb(207, 204, 204);
+    background-color: rgb(253, 251, 251);
+} 
+
+
+
+.heading{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: wheat;
+
+}
+
+.VIDEOS{
+    display: flex;
+    /* height: 400px;
+    width: 400px; */  
+    flex-wrap: wrap; 
+    /* align-items: center; */
+    margin-left: 40 px;
+}
+.video-wrapper{
+   padding: 5px;
+    margin-left: 100px;
+    margin-bottom: 18px;
+    border: 7px solid rgb(129, 126, 125);
+    text-align: center;
+    color: aliceblue;
+    background-color: #000000;
+    font-family: Cooper;
+    font-weight: bold;
+    
+}
+
+.video-wrapper > iframe{
+    border: 3px solid rgb(255, 255, 255);
+}
+
+
+
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+   
+    clear: both; 
+    float: left;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 100px;
+    width: 100% ;
+}
+
+.footer > div{
+    display: block;
+    float: left;
+    width: 260px;
+    height: auto;
+    /* border-style: dashed; */
+    margin: 40px;
+    
+    justify-content: center;
+    justify-items: center;
+} 
+.footer > div > a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.footer > div > ul {
+    list-style-type: none;
+    padding: 0px;
+    margin-top: 13px;
+}
+
+.footer > div > ul > a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer > div > ul > a:hover {
+    text-decoration: underline;
+}

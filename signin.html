@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic Site - Sign In</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing: border-box;
+            /* background-color:#24252A; */
+            font-family: "Montserrat", sans-serif;
+            background-repeat:no-repeat;
+            background-size: cover;
+    
+
+        }
+        li,a,button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#edf0f1;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+.logo{
+    cursor: pointer;
+}
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding:0px 20px;
+}
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+    color:#0088a9;
+}
+button{
+    padding:9px 25px;
+    border: none;
+    cursor:pointer;
+    transition:all 0.3s ease 0s;
+    border-radius:50px;
+    background-color: #0088a9;
+
+}
+.logo{
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    
+}
+.logo span{
+    color:  rgb(32, 188, 227);
+}
+button:hover{
+    background-color: #0088a9cc;
+}
+       /* body {
+            font-family: 'Arial', sans-serif;
+            background-color: #24252A;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+         */
+        .signin-container {
+    
+            background-color:#164662;
+           
+            border-radius: 18px;
+            box-shadow: 0px 2px 10px rgba(80, 79, 79, 0.1);
+            width: 370px;
+            padding: 30px ;
+            margin-top:90px;
+            text-align: center;
+            justify-content: center;
+            margin-left:32em;
+        }
+        
+        .signin-container h2 {
+            margin-bottom: 20px;
+            color: #faf8f8;
+        }
+        
+        .signin-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .form-group {
+            width: 100%;
+            margin-right:42px;
+            margin-left:20px;
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-top:12px;
+            color: #f7f3f3;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #cccccc;
+            background-color: white;
+            border-radius:10em;
+            font-size: 16px;
+            margin-left:10px;
+            margin-top:15px;
+        }
+        
+        .form-group input:focus {
+            outline: none;
+            border-color: #0088a9;
+        }
+        
+        .btn {
+            background-color: #017b99;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #0088a9cc;
+        }
+        
+        .signin-form p {
+            color: #f6f4f4;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        
+        .signin-form a {
+            color: #0088a9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .signin-form a:hover {
+            text-decoration: underline;
+        }
+        body{
+             background-color:#24252A;
+        }
+    </style>
+</head>
+<body background="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/upwk61860163-wikimedia-image.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=6547d01d308001faae1be21edbd9f481" >
+    <div class="navbar"> 
+        <div class="logo">
+        Snap<span>D</span>igi</div>
+        <ul class="navlinks">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="aboutus.html">ABOUT US</a></li>
+            <li><a href="categories.html">CATEGORIES</a></li>
+            <li><a href="demo.html">DEMO</a></li>
+         
+         </ul>
+         <a href="home.html"><button>LOG IN</button></a>
+
+    </div>
+    <div class="signin-container">
+        <h2>Welcome Back!</h2>
+        <form class="signin-form">
+            <div class="form-group">
+                <!-- <label for="email">Email</label> -->
+                <input type="email" id="email" name="email" placeholder="email" required>
+            </div>
+            <div class="form-group">
+                <!-- <label for="password">Password</label> -->
+                <input type="password" id="password" name="password" placeholder="password" required>
+            </div>
+            <button class="btn" type="submit">Sign In</button>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </form>
+    </div>
+</body>
+</html>

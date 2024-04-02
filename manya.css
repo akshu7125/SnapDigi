@@ -1,0 +1,136 @@
+/* body{
+    background-color: #292d33;
+} */
+li,a,button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#edf0f1;
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+.logo{
+    cursor: pointer;
+}
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding:0px 20px;
+}
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+    color:#0088a9;
+}
+button{
+    padding:9px 25px;
+    border: none;
+    cursor:pointer;
+    transition:all 0.3s ease 0s;
+    border-radius:50px;
+    background-color: #0088a9;
+
+}
+button:hover{
+    background-color: #0088a9cc;
+}
+.slider img{
+   height: 500px;
+   width: 100%
+    
+}
+.logo{
+    color: white;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    
+}
+.logo span{
+    color:  rgb(32, 188, 227);
+}
+
+
+.wrapper{
+    display: flex;
+    margin-left: 10%;
+}
+.left{
+    border: 2px solid #0088a9cc;
+    display: inline-block;
+    background-color: #0088a9;
+    padding: 5% 0% 8% 1%;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.loc, .pho, .mail{
+    display: flex;
+    box-shadow: rgb(247, 243, 243);
+
+}
+.let{
+    font-size: 1.6rem;
+    color: white;
+}
+.locic{
+    height: 25px;
+}
+.locte, .mailte, .phote{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 4%;
+}
+.name1, .email1, .subject1, .message1{
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    outline: none;
+    width: 250%;
+    padding-top: 4%;
+}
+.right{
+    border: 2px solid white;
+    background-color: white;
+    height: 500px;
+    margin-top: 4%;
+    padding-left: 4%;
+    padding-right: 25%;
+}
+.name {
+    padding-top: 15%;
+    font-size: 1.5rem;
+}
+.email, .subject, .message{
+    font-size: 1.5rem;
+    padding-top: 9%;
+}
+.name1:focus {
+    border-color: #007bff; /* Change border color when focused */
+}
+.email1:focus {
+    border-color: #007bff; /* Change border color when focused */
+}
+.subject1:focus {
+    border-color: #007bff; /* Change border color when focused */
+}
+.message1:focus {
+    border-color: #007bff; /* Change border color when focused */
+}
+.btn{
+    padding: 8%;
+    font-size: 1rem;
+    margin-top: 13%;
+    background-color:#0088a9 ;
+    color: white;
+}
+.btn:focus{
+    background-color: #0088a9cc;
+}
